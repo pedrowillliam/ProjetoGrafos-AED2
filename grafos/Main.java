@@ -12,13 +12,13 @@ public class Main<TIPO>{
          grafo.addVertice("Recife"); //0
          grafo.addVertice("Fortaleza"); //1
          grafo.addVertice("Salvador"); //2
-         grafo.addVertice("João Pessoa"); //3
-         grafo.addVertice("Maceió"); //4
+         grafo.addVertice("Joao Pessoa"); //3
+         grafo.addVertice("Maceio"); //4
          //Cidades sem sede da Empresa
          grafo.addVertice("Teresina"); //5
          grafo.addVertice("Aracaju"); //6
          grafo.addVertice("Natal"); //7
-         grafo.addVertice("São Luís"); //8
+         grafo.addVertice("Sao Luis"); //8
          grafo.addVertice("Patos"); //9 
          grafo.addVertice("Campina Grande"); //10
          grafo.addVertice("Caruaru"); //11
@@ -28,25 +28,25 @@ public class Main<TIPO>{
          grafo.addVertice("Juazeiro do Norte"); //15
          grafo.addVertice("Feira de Santana");//16
          
-// Recife,Fortaleza, Salvador, João Pessoa, Maceió,Teresina, Aracaju, Natal, São Luís, Patos, Campina Grande, Caruaru, Surubim, Garanhuns, Petrolina, Juazeiro do Norte, Feira de Santana
+// Recife,Fortaleza, Salvador, Joao Pessoa, Maceio,Teresina, Aracaju, Natal, Sao Luis, Patos, Campina Grande, Caruaru, Surubim, Garanhuns, Petrolina, Juazeiro do Norte, Feira de Santana
  
          grafo.addAresta(133.2, "Recife", "Caruaru");//ok
          grafo.addAresta(133.2, "Caruaru", "Recife");//ok
-         grafo.addAresta(117.0, "Recife", "João Pessoa");//ok
-         grafo.addAresta(117.0, "João Pessoa", "Recife");//ok
-         grafo.addAresta(259.0, "Recife", "Maceió");//ok
+         grafo.addAresta(117.0, "Recife", "Joao Pessoa");//ok
+         grafo.addAresta(117.0, "Joao Pessoa", "Recife");//ok
+         grafo.addAresta(259.0, "Recife", "Maceio");//ok
          grafo.addAresta(120.0,"Recife","Surubim");//ok
          grafo.addAresta(120.0,"Surubim","Recife");//ok 
          grafo.addAresta(202.0, "Recife", "Campina Grande");//ok
          grafo.addAresta(202.0, "Campina Grande", "Recife");//ok
-         grafo.addAresta(673.0, "Fortaleza", "João Pessoa");//ok
-         grafo.addAresta(673.0, "João Pessoa", "Fortaleza");//ok
+         grafo.addAresta(673.0, "Fortaleza", "Joao Pessoa");//ok
+         grafo.addAresta(673.0, "Joao Pessoa", "Fortaleza");//ok
          grafo.addAresta(604.0, "Fortaleza", "Teresina");//ok
          grafo.addAresta(604.0, "teresina", "Fortaleza"); //ok
          grafo.addAresta(524.0, "Fortaleza", "Natal"); //ok
          grafo.addAresta(524.0, "Natal", "Fortaleza");//ok
-         grafo.addAresta(899.0, "Fortaleza", "São Luís");//ok
-         grafo.addAresta(899.0, "São Luís", "Fortaleza");//ok
+         grafo.addAresta(899.0, "Fortaleza", "Sao Luis");//ok
+         grafo.addAresta(899.0, "Sao Luis", "Fortaleza");//ok
          grafo.addAresta(522.0, "Fortaleza", "Patos");//ok
          grafo.addAresta(522.0, "Patos", "Fortaleza");//ok
          grafo.addAresta(616.0, "Fortaleza", "Campina Grande");//ok
@@ -54,24 +54,24 @@ public class Main<TIPO>{
          grafo.addAresta(324.0, "Salvador", "Aracaju");//ok
          grafo.addAresta(324.0, "Aracaju", "Salvador");//ok
          grafo.addAresta(116.0, "Salvador", "Feira de Santana");//ok
-         grafo.addAresta(181.0, "João Pessoa", "Natal");//ok
-         grafo.addAresta(181.0, "Natal", "João Pessoa");//ok
-         grafo.addAresta(127.0, "João Pessoa", "Campina Grande");//ok
-         grafo.addAresta(127.0, "Campina Grande", "João Pessoa");//ok
-         grafo.addAresta(238.0, "João Pessoa", "Caruaru");//ok
-         grafo.addAresta(238.0, "Caruaru", "João Pessoa");//ok
-         grafo.addAresta(176.0, "João Pessoa", "Surubim");//ok
-         grafo.addAresta(176.0, "Surubim", "João Pessoa");//ok
-         grafo.addAresta(276.0, "Maceió", "Aracaju");//ok
-         grafo.addAresta(276.0, "Aracaju", "Maceió");//ok
-         grafo.addAresta(194.0, "Maceió", "Caruaru");//ok
-         grafo.addAresta(194.0, "Caruaru", "Maceió");//ok
-         grafo.addAresta(171.0, "Maceió", "Garanhuns");//ok
-         grafo.addAresta(171.0, "Garanhuns", "Maceió");//ok
-         grafo.addAresta(687.0, "Maceió", "Petrolina");//ok
-         grafo.addAresta(687.0, "Petrolina", "Maceió");//ok
-         grafo.addAresta(439.0, "Teresina", "São Luís");//ok
-         grafo.addAresta(439.0, "São Luís", "Teresina");//ok
+         grafo.addAresta(181.0, "Joao Pessoa", "Natal");//ok
+         grafo.addAresta(181.0, "Natal", "Joao Pessoa");//ok
+         grafo.addAresta(127.0, "Joao Pessoa", "Campina Grande");//ok
+         grafo.addAresta(127.0, "Campina Grande", "Joao Pessoa");//ok
+         grafo.addAresta(238.0, "Joao Pessoa", "Caruaru");//ok
+         grafo.addAresta(238.0, "Caruaru", "Joao Pessoa");//ok
+         grafo.addAresta(176.0, "Joao Pessoa", "Surubim");//ok
+         grafo.addAresta(176.0, "Surubim", "Joao Pessoa");//ok
+         grafo.addAresta(276.0, "Maceio", "Aracaju");//ok
+         grafo.addAresta(276.0, "Aracaju", "Maceio");//ok
+         grafo.addAresta(194.0, "Maceio", "Caruaru");//ok
+         grafo.addAresta(194.0, "Caruaru", "Maceio");//ok
+         grafo.addAresta(171.0, "Maceio", "Garanhuns");//ok
+         grafo.addAresta(171.0, "Garanhuns", "Maceio");//ok
+         grafo.addAresta(687.0, "Maceio", "Petrolina");//ok
+         grafo.addAresta(687.0, "Petrolina", "Maceio");//ok
+         grafo.addAresta(439.0, "Teresina", "Sao Luis");//ok
+         grafo.addAresta(439.0, "Sao Luis", "Teresina");//ok
          grafo.addAresta(860.0, "Teresina", "Patos");//ok
          grafo.addAresta(860.0, "Patos", "Teresina");//ok
          grafo.addAresta(646.0, "Teresina", "Petrolina");//ok
@@ -130,7 +130,7 @@ public class Main<TIPO>{
 
             switch (acao) {
                 case 1:
-                    System.out.println("Digite o Número da cidade que você quer começar: \nRecife: 0\nFortaleza: 1\nSalvador: 2\nJoão Pessoa: 3\nMaceió: 4\nTeresina: 5\nAracaju: 6\nNatal: 7\nSão Luís: 8\nFeira de Santana: 9\nCampina Grande: 10\nCaruaru: 11\nJuazeiro do Norte: 12\nArapiraca: 13\nPetrolina: 14");
+                    System.out.println("Digite o Número da cidade que você quer começar: \nRecife: 0\nFortaleza: 1\nSalvador: 2\nJoao Pessoa: 3\nMaceio: 4\nTeresina: 5\nAracaju: 6\nNatal: 7\nSao Luis: 8\nFeira de Santana: 9\nCampina Grande: 10\nCaruaru: 11\nJuazeiro do Norte: 12\nArapiraca: 13\nPetrolina: 14");
                     int index = scanIndex.nextInt();
                     grafo.buscaLargura(index);
                     break;
