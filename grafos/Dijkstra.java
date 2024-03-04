@@ -6,10 +6,6 @@ public class Dijkstra<TIPO> {
 
 
     public void menorCaminho(Vertice<TIPO> inicio) {
-        // 1. Guarde o nó que ainda não foi visitado com a distância mínima.
-        // 2. Visite todos os vizinhos.
-        // 3. Atualize todas das distâncias dos vizinhos(Na fila de prioridade)
-        // Repita o processo até que todos os nós sejam visitados.
 
         inicio.distanciaMin = 0.0;
         PriorityQueue<Vertice<TIPO>> fila = new PriorityQueue<Vertice<TIPO>>();
